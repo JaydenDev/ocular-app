@@ -1,13 +1,13 @@
 {
     "name": "ocular",
-    "version": "1.0.0",
+    "version": "0.1.0",
     "description": "A minimal Electron application",
     "main": "main.js",
     "scripts": {
         "start": "electron main/main.js",
         "make": "electron-forge make",
         "package": "electron-forge package",
- 	  "publish": "electron-forge publish"
+        "publish": "electron-forge publish"
     },
     "repository": "https://github.com/electron/electron-quick-start",
     "keywords": [
