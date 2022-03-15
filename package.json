@@ -1,6 +1,6 @@
 {
     "name": "ocular",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "A minimal Electron application",
     "main": "main.js",
     "scripts": {
@@ -32,17 +32,20 @@
     },
     "config": {
         "forge": {
-            "publishers": [{
-                "name": "@electron-forge/publisher-github",
-                "config": {
-                    "repository": {
-                        "owner": "JaydenDev",
-                        "name": "ocular-electron-app"
-                    },
-                    "draft": true
+            "publishers": [
+                {
+                    "name": "@electron-forge/publisher-github",
+                    "config": {
+                        "repository": {
+                            "owner": "JaydenDev",
+                            "name": "ocular-electron-app"
+                        },
+                        "draft": true
+                    }
                 }
-            }],
-            "makers": [{
+            ],
+            "makers": [
+                {
                     "name": "@electron-forge/maker-squirrel",
                     "config": {
                         "name": "ocular-electron-app"
